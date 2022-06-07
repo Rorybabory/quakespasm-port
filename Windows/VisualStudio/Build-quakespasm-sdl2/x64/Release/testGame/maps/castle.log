@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: castle-compile.map
+Output file: castle.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          720 faces
+          115 brushes
+            8 entities
+            8 unique texnames
+          193 texinfo
+
+Opened WAD: C:/Users/lambe/source/repos/quakeModding/wads/id/e2m4.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          109 brushes
+          154 planes
+---- CSGFaces ----
+          678 brushfaces
+          656 csgfaces
+          491 mergedfaces
+---- SolidBSP ----
+          679 split nodes
+          246 solid leafs
+          434 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1735 leaffaces
+         1557 nodefaces
+---- Portalize ----
+          434 vis leafs
+          434 vis clusters
+         1430 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-1136 -16 24), no filling performed.
+Leak file written to castle.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote castle.bsp
+          485 planes             9700
+         2149 vertexes          25788
+          711 nodes             17064
+          123 texinfo            4920
+         1595 faces             31900
+         1543 clipnodes         12344
+          467 leafs             13076
+         1773 marksurfaces       3546
+         6397 surfedges         25588
+         4195 edges             16780
+            8 textures          35716
+              lightdata             0
+              visdata               0
+              entdata             501
+
+0.146 seconds elapsed
+Peak memory usage: 8461142 (8.1M)

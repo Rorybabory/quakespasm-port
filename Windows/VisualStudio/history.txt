@@ -1,0 +1,31 @@
+impulse 9
+map test001
+impulse 9
+cl_forwardspeed 300
+cl_forwardspeed 800
+cl_forwardspeed 100000
+impulse 9
+map test001
+impulse 9
+r_nolerp 1
+r_lerpmodels 0
+impulse 9
+r_lerpmodels 0
+impulse 9
+map test001
+impulse 9
+map test001
+impulse 9
+scr_crosshairscale 30
+map test001
+impulse 9
+map test001
+impulse 9
+noclip
+map test001
+noclip
+map test001
+noclip
+map test001
+impulse 9
+map test001
